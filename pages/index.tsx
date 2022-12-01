@@ -1,4 +1,6 @@
 import Head from "next/head";
+import ContactUsSection from "../components/sections/contact-us/ContactUsSection";
+import OurStorySection from "../components/sections/our-story/OurStorySection";
 import WhatWeDoSection from "../components/sections/what-we-do/WhatWeDoSection";
 
 export default function Home() {
@@ -11,6 +13,8 @@ export default function Home() {
       </Head>
       <main>
         <WhatWeDoSection />
+        <OurStorySection />
+        <ContactUsSection />
       </main>
     </div>
   );
