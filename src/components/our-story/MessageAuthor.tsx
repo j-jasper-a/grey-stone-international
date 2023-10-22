@@ -4,7 +4,7 @@ const MessageAuthor = () => {
   return (
     <div className="flex flex-row items-center gap-4">
       <Image
-        src={"/assets/images/ceo-avatar.webp"}
+        src={"/assets/images/our-story/managing-director.webp"}
         alt="Md. Harun ar Rashid"
         width={512}
         height={512}

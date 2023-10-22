@@ -14,7 +14,7 @@ const Logo = ({ className, onClick }: Props) => {
     <motion.div layout className={`${className}`}>
       <Link href={"/"} className="w-fit" onClick={onClick}>
         <Image
-          src={"/assets/images/company-logo.png"}
+          src={"/assets/images/logos/company-logo.png"}
           alt="Logo"
           width={256}
           height={256}
