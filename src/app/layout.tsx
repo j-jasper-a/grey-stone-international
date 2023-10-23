@@ -15,8 +15,7 @@ const fontSpecial = Roboto_Slab({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Grey Stone International — A 100% export-oriented garment buying house based in Bangladesh",
+  title: "Grey Stone International | For your ready-made garments needs",
   description:
     "Grey Stone International is a 100% export-oriented garment buying house based in Bangladesh, offering a wide range of services for ready-made garments needs.",
 };

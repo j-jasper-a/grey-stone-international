@@ -33,10 +33,18 @@ const Navigation = () => {
       <Container className="flex h-16 flex-row items-center justify-between p-4">
         <Logo className={`${visibleBackground ? "h-8 w-8" : "h-16 w-16"}`} />
         <ul className="flex w-fit flex-row items-center gap-4 sm:gap-8">
-          <NavigationLink href="#services">Services</NavigationLink>
-          <NavigationLink href="#our-story">Our Story</NavigationLink>
-          <NavigationLink href="#careers">Careers</NavigationLink>
-          <NavigationLink href="#contact">Contact</NavigationLink>
+          <NavigationLink href="#services" title="Services">
+            Services
+          </NavigationLink>
+          <NavigationLink href="#our-story" title="Our Story">
+            Our Story
+          </NavigationLink>
+          <NavigationLink href="#careers" title="Careers">
+            Careers
+          </NavigationLink>
+          <NavigationLink href="#contact" title="Contact Us">
+            Contact
+          </NavigationLink>
         </ul>
       </Container>
     </motion.nav>
