@@ -24,6 +24,7 @@ const ServiceCard = ({
         alt={imageAlt}
         width={1080}
         height={1080}
+        title={title}
         className="rounded-lg object-cover shadow-sm shadow-dark/25"
       />
       <div className="absolute -bottom-56 flex aspect-auto w-[90%] flex-col gap-4 rounded-lg bg-light p-4 shadow-sm shadow-dark/25 sm:aspect-[10/9] sm:p-8">

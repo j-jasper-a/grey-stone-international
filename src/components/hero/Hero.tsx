@@ -9,10 +9,11 @@ const Hero = () => {
     <div className="relative h-screen bg-gradient-to-b from-0% to-100%">
       <Image
         src={"/assets/images/backdrop.webp"}
-        alt="Hero"
+        alt="A photo of clothes on hangers"
         width={1920}
         height={1920}
         priority={true}
+        title="Grey Stone International"
         className="absolute top-0 -z-10 h-full w-full object-cover object-bottom"
       />
       <Section className="h-full">

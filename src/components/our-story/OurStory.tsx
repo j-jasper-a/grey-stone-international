@@ -8,7 +8,7 @@ import EstablishmentYear from "./EstablishmentYear";
 
 const OurStory = () => {
   return (
-    <Section id="our-story">
+    <Section id="our-story" title="Our Story">
       <SectionTitle title="Our Story" />
       <HeadingSecondary>
         We have been doing this for a long time.

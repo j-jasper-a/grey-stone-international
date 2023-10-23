@@ -6,7 +6,7 @@ import WhyUs from "./WhyUs";
 
 const Careers = () => {
   return (
-    <Section id="careers">
+    <Section id="careers" title="Careers">
       <SectionTitle title="Careers" />
       <HeadingSecondary>
         Perhaps, you are here looking for a job.
