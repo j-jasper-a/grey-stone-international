@@ -5,7 +5,7 @@ import HeadingSecondary from "../common/HeadingSecondary";
 
 const Services = () => {
   return (
-    <Section id="services" title="Services">
+    <Section id="services">
       <SectionTitle title="Services" />
       <HeadingSecondary>
         We are with you at every step of the way.

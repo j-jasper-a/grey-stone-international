@@ -7,7 +7,7 @@ type Props = {
   important?: boolean;
 };
 
-const Button = ({ text, onClick, href = "/", important }: Props) => {
+const Button = ({ text, onClick, href = "#", important }: Props) => {
   const ButtonText = ({ text }: Props) => {
     return (
       <p
@@ -24,13 +24,17 @@ const Button = ({ text, onClick, href = "/", important }: Props) => {
 
   if (onClick) {
     return (
-      <button onClick={onClick} className="min-w-max">
+      <button title={text} onClick={onClick} className="min-w-max">
         <ButtonText text={text} />
       </button>
     );
   } else {
     return (
-      <Link href={href} className="min-w-max">
+      <Link
+        href={href}
+        title={href ? text : "Grey Stone International"}
+        className="min-w-max"
+      >
         <ButtonText text={text} />
       </Link>
     );

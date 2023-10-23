@@ -12,7 +12,12 @@ type Props = {
 const Logo = ({ className, onClick }: Props) => {
   return (
     <motion.div layout className={`${className}`}>
-      <Link href={"/"} className="w-fit" onClick={onClick}>
+      <Link
+        title="Grey Stone International"
+        href={"#"}
+        className="w-fit"
+        onClick={onClick}
+      >
         <Image
           src={"/assets/images/logos/company-logo.png"}
           alt="The Grey Stone International logo"

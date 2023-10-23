@@ -6,7 +6,7 @@ type Props = {
   title?: string;
 };
 
-const NavigationLink = ({ children, href = "/", title }: Props) => {
+const NavigationLink = ({ children, href = "#", title }: Props) => {
   return (
     <li>
       <Link href={href} title={title}>

@@ -8,7 +8,7 @@ type Props = {
 const FooterNavigationLink = ({ title, href }: Props) => {
   return (
     <li>
-      <Link href={href}>
+      <Link href={href} title={title}>
         <p className="hover:text-light">{title}</p>
       </Link>
     </li>

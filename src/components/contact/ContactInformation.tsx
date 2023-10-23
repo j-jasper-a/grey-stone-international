@@ -12,10 +12,18 @@ const ContactInformation = () => {
         <div className="flex flex-row gap-4">
           <HiPhone className="h-8 w-8 text-brand-1" />
           <div className="flex flex-col">
-            <a href="tel:+8801822999092" className="hover:text-brand-1">
+            <a
+              title="+880-1822-999092"
+              href="tel:+8801822999092"
+              className="hover:text-brand-1"
+            >
               +880-1822-999092
             </a>
-            <a href="tel:+8801972999092" className="hover:text-brand-1">
+            <a
+              title="+880-1972-999092"
+              href="tel:+8801972999092"
+              className="hover:text-brand-1"
+            >
               +880-1972-999092
             </a>
           </div>
@@ -24,12 +32,14 @@ const ContactInformation = () => {
           <HiMail className="h-8 w-8 text-brand-1" />
           <div className="flex flex-col">
             <a
+              title="harun2@greystonebd.net"
               href="mailto:harun2@greystonebd.net"
               className="hover:text-brand-1"
             >
               harun2@greystonebd.net
             </a>
             <a
+              title="harun.business@gmail.com"
               href="mailto:harun.business@gmail.com"
               className="hover:text-brand-1"
             >
